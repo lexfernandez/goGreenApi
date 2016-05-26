@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db-mysql"
+  },
+  "AccessToken": {
+    "dataSource": "db-mysql",
+    "public": true
+  },
+  "ACL": {
+    "dataSource": "db-mysql",
+    "public": true
+  },
+  "RoleMapping": {
+    "dataSource": "db-mysql",
+    "public": true
+  },
+  "Role": {
+    "dataSource": "db-mysql",
+    "public": true
+  },
+  "House": {
+    "dataSource": "db-mysql",
+    "public": true
+  },
+  "UserDevice": {
+    "dataSource": "db-mysql",
+    "public": true
+  },
+  "GpsDevice": {
+    "dataSource": "db-mysql",
+    "public": true
+  },
+  "GpsDeviceLocation": {
+    "dataSource": "db-mysql",
+    "public": true
+  },
+  "Region": {
+    "dataSource": "db-mysql",
+    "public": true
+  },
+  "RegionPoint": {
+    "dataSource": "db-mysql",
+    "public": true
+  },
+  "Bin": {
+    "dataSource": "db-mysql",
+    "public": true
+  },
+  "BinType": {
+    "dataSource": "db-mysql",
+    "public": true
+  },
+  "Report": {
+    "dataSource": "db-mysql",
+    "public": true
+  },
+  "ReportType": {
+    "dataSource": "db-mysql",
+    "public": true
+  },
+  "Container": {
+    "dataSource": "localStorage",
+    "public": true
+  },
+  "push": {
+    "dataSource": "push",
+    "public": true
+  },
+  "application": {
+    "dataSource": "db-mysql",
+    "public": true
+  },
+  "installation": {
+    "dataSource": "db-mysql",
+    "public": true
+  },
+  "notification": {
+    "dataSource": "db-mysql",
+    "public": true
+  }
+}

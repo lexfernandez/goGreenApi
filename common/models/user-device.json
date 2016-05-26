@@ -1,0 +1,24 @@
+{
+  "name": "UserDevice",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "gcmToken": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "user": {
+      "type": "belongsTo",
+      "model": "User",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

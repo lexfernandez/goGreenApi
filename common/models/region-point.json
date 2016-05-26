@@ -1,0 +1,24 @@
+{
+  "name": "RegionPoint",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "location": {
+      "type": "geopoint",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "region": {
+      "type": "belongsTo",
+      "model": "Region",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

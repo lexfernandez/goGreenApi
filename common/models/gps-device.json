@@ -1,0 +1,28 @@
+{
+  "name": "GpsDevice",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "identifier": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "gpsDeviceLocations": {
+      "type": "hasMany",
+      "model": "GpsDeviceLocation",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

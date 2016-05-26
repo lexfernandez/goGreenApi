@@ -1,0 +1,28 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "localStorage": {
+    "name": "localStorage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./storage/images"
+  },
+  "push": {
+    "name": "push",
+    "connector": "loopback-component-push",
+    "installation": "installation",
+    "notification": "notification",
+    "application": "application"
+  },
+  "db-mysql": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "dev_db",
+    "password": "mfnb",
+    "name": "db-mysql",
+    "user": "loopbackuser",
+    "connector": "mysql"
+  }
+}
