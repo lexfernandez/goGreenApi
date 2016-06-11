@@ -17,12 +17,12 @@
     "application": "application"
   },
   "db-mysql": {
-    "host": "localhost",
+    "host": "www.db4free.net",
     "port": 3306,
-    "database": "dev_db",
-    "password": "mfnb",
+    "database": "gogreen",
+    "password": "mfnb_1",
     "name": "db-mysql",
-    "user": "loopbackuser",
+    "user": "afernandez",
     "connector": "mysql"
   }
 }
