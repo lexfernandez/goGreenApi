@@ -5,9 +5,7 @@ var app = module.exports = loopback();
 
 app.start = function() {
   // start the web server
-  var port = process.env.PORT || 8080;
-
-  return app.listen(port,function() {
+  return app.listen(function() {
     app.emit('started');
     var baseUrl = app.get('url').replace(/\/$/, '');
     console.log('Web server listening at: %s', baseUrl);
