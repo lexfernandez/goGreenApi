@@ -91,5 +91,9 @@
   "notification": {
     "dataSource": "db-mysql",
     "public": true
+  },
+  "gcmToken": {
+    "dataSource": "db-mysql",
+    "public": true
   }
 }

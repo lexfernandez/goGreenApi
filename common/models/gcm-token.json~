@@ -1,0 +1,22 @@
+{
+  "name": "gcmToken",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "mobileId": {
+      "type": "string",
+      "required": true
+    },
+    "deviceToken": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
