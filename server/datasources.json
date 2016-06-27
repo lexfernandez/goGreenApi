@@ -17,12 +17,12 @@
     "application": "application"
   },
   "db-mysql": {
-    "host": "www.db4free.net",
+    "host": "lbdb.cysxg70surok.us-east-1.rds.amazonaws.com",
     "port": 3306,
-    "database": "gogreen",
-    "password": "mfnb_1",
+    "database": "lbdev",
+    "password": "mfnbmfnb",
     "name": "db-mysql",
-    "user": "afernandez",
+    "user": "mfnbmfnb",
     "connector": "mysql"
   }
 }
