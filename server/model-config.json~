@@ -92,7 +92,7 @@
     "dataSource": "db-mysql",
     "public": true
   },
-  "GcmToken": {
+  "gcmToken": {
     "dataSource": "db-mysql",
     "public": true
   }

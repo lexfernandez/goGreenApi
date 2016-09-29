@@ -2,7 +2,9 @@ var path = require('path');
 var app = require(path.resolve (__dirname, '../server'));
 var ds = app.dataSources["db-mysql"];
 
-var models = ['GcmToken'];
+var models = ['User', 'AccessToken', 'ACL', 'RoleMapping', 
+'Role','House','UserDevice','GpsDevice','GpsDeviceLocation',
+'Region','RegionPoint','Bin','BinType','Report','ReportType','GcmToken'];
 
 ds.automigrate(models, function(er) {
   //if (er) throw er;

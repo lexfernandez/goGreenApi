@@ -1,5 +1,5 @@
 {
-  "name": "gcmToken",
+  "name": "GcmToken",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -16,7 +16,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "user": {
+      "type": "belongsTo",
+      "model": "User",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
